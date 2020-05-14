@@ -1,3 +1,6 @@
+# Program data input and output files
+data/*
+
 # History files
 .Rhistory
 .Rapp.history
