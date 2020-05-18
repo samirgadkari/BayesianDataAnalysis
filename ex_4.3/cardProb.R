@@ -10,5 +10,6 @@ four suits: hearts, diamonds, clubs, spades.)
 # 2 values of each card per suite, and there are 4 suites.
 pinochle = rep( c( "9", "10", "J", "Q", "K", "A" ), each=8 )
 prob_10 = length(pinochle[ pinochle == "10" ]) / length(pinochle)
-
+prob_10
 prob_10_J = length(pinochle[ pinochle == "10" | pinochle == "J"]) / length(pinochle)
+prob_10_J
